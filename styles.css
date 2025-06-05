@@ -1,0 +1,179 @@
+/* General Styling */
+body {
+  background-color: black;
+}
+
+.align {
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+.signin-btn {
+  color: white;
+  padding: 5px;
+  height: 30px;
+  background-color: rgb(220, 20, 20);
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 2px;
+}
+
+.login-hero {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(./assets/netflix-background.jpg) center/cover;
+  margin-bottom: 50px;
+}
+
+.login-hero-content {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  max-width: fit-content;
+}
+
+.hero-description-2 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #e5e5e5;
+}
+
+/* Responsiveness */
+
+/* 1200px and above */
+@media (min-width: 1200px) {
+  .login-hero-content {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    max-width: fit-content;
+  }
+}
+
+/* upto 768px */
+@media (max-width: 768px) {
+  .hero-description-2 {
+    font-size: 14px;
+  }
+
+  .login-hero-content {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    right: 20%;
+    max-width: fit-content;
+  }
+}
+
+/* upto 480px */
+@media (max-width: 480px) {
+  .login-hero-content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    max-width: fit-content;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+  }
+
+  .placeholder {
+    margin-bottom: 20px;
+  }
+
+  .login-hero {
+    height: 70vh;
+  }
+
+  .reasons-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .reason-card h3 {
+    font-size: 1rem;
+  }
+}
+
+/* .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+} */
+
+.placeholder {
+  height: 30px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.252);
+  border-radius: 2px;
+  border: 0.5px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* Reason Section */
+/* Base Styles */
+.reasons-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reasons-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reasons-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.reason-card {
+  background-color: #1c1c1c;
+  padding: 30px 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.reason-card:hover {
+  transform: translateY(-5px);
+}
+
+.reason-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.reason-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #b3b3b3;
+}

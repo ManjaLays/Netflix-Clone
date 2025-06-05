@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            alt="Netflix image"
+            class="logo"
+          />
+        </a>
+      </div>
+      <div class="navbar-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#newReleases" class="nav-link">New Releases</a>
+        <a href="#movies" class="nav-link">Movies</a>
+        <a href="#tvShows" class="nav-link">Tv Shows</a>
+        <a href="#myList" class="nav-link">My List</a>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile image"
+          class="profile-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Stranger Things</h1>
+        <p class="hero-description">
+          When a young boy vanishes, a small town uncovers a mystery involving
+          secret experiments, terrifying supernatural forces and one strange
+          little girl.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-play"><i class="fa fa-play"></i>Play</button>
+          <button class="btn btn-more-info">
+            <i class="fa fa-info-circle"></i>More info
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- New Releases row -->
+    <div class="container" id="newReleases">
+      <section class="content-section">
+        <h2 class="section-title">New Releases</h2>
+
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://media.telanganatoday.com/wp-content/uploads/2025/04/Mission-Immposible.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVipwibdgnk8mt-rugJoqnqNxuBMIilCz3Q7FMtq2MQDl86o3KY0W04dK4PcLfbSZO1vo1mmYrlfccZ4ty3wyP82N2X8-c5e6Fw_q7GF1l4nhv9NTsRsFoSfM_6aIkXxXh_MTf8ldgnwTVg1-TysZ43qtkcEKvrsvZJyV-kzH3eAwc7RVJB94es3ZF_ypFqSMqCebOxfM9H6VFPlETSz4zeQCSvgWE-O4hFih3nFKNP4x_-9wRrs5lQVV0VFhvo2-XM.jpg?r=869"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUKD1oSzD8roWVDDO_6rm99CD8CkE18q20az0SDBUePn4nv2sXWp0Q0PZ3-k5PBuPLpTmZqumnPN37NbiNOO69_gvjQ1cKe0DcAMmG6FPzHRtRGnqGS7O1SHlG1ryJYTRk7IVsCymgzKDYXn5h6a-nZGi-bEnC7fVxqyszFSbEGGTHOnezdmVSHaUbDLDpftlVuQ0m1K4MPKpEfWsAF6IF4X50WlUXW9UMVseoj604D59Y77dqov-DYpoDW-nOUFrY8.jpg?r=3b5"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUUf-Mw3x9LhcKh3zvXdD4sKAt1MdK0lGCQtj1WDfTri3GsMdE3XVuAANmi1dZLEugiSKRpEbyNHcsPnj7X-y0feThCa53-wJzU8RvAzfMQIwYklk5h4dl5XthAcoNQc3wv4PwuqDk3Q8gsVzBgm3WCGE3TfTP3IGg3ssZHZIJGf5FrZ-M8h9YgvRjTVBkwomgMYCOzh.jpg?r=987"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABds5IGH0eRgu-1WsYujTkv68_w9HnaY2sKz0LcCl0IyNQxVzyCV2BtSm_Tn_0aQrun929HtrK_iJRRIHFg0w8ijfHusXqBPyXwbCe7T8MNRKRidbngo8xndQiaSwYTFH0u5k3HMcSGUWE-TqD2b_IoBtMGlaQeZ_8-aAUFvFoP2jpMQDjRxAdq7p0OOOj_zZlWgzalnuZGCVoGl7BBtbpXdZu2KcCfIda5R38qjysg9pkrq0Z6MWjxcB9QJqdldeAEM_KlkmTSNB-0DlSJk8IaPveDt1qVhmO4b773wDprI9UkqrbDYfAOeUKUKLZsVw_dEoJYVyzgpcxClevkKQf0i9.jpg?r=542"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Only On Netflix row -->
+    <div class="container" id="onlyOnNetflix">
+      <section class="content-section">
+        <h2 class="section-title">Only On Netflix</h2>
+
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABR_iZiIBOQRYPO_Au3JsvZtNtwz_LfAw-Q0JI3N8B7_XaLG5KHbYG8PKVTwHlEKRQ5QMKqQB0Bc69h5TSuGnfSsio9RB-UV_BD6ft5Tl8sUDtjndaaWng3LRqpumEr88269RvMkAbwoeOFI-sIESh5WoIZXO0Vx6Z8ieAicKZXr1e1eQJdiQ4R3Q2BA7UgcCnDb6wIHR9T6sI0LkCqZfjahNjLLx5et8NnYh-tcIeMnGho3UIIjzhvuGTwdoyrQ9o-6Kmf_q8P2KCNUo-mNI_sBR457efl1tFC__NLQk_MDuJQb7VJ7i6WbUSsUpgsnNWazsya4QP4uaZ5-ZmPKJ5UKcpw.jpg?r=ea2"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2  -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABV7ZN16RyF_NX1jifDL0gUttbuv6g7dMEFopItw0DTCDV8GpTb0-9A30fpIkA7KrqihYndFFyYnTQSGOQrkL2K00kv6NUfoUWq4DlcZOYkCMoVwcuZFn9WkQLCg_HQoQkpM2.jpg?r=1c3"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfyfO998JNWAx6snVHf7_ydlwuk8I1tPQCttH_W4OCzmhkWufyFODQaEnnftder7T2geYuzZuznJiFtGd8GxlgCATqrUxV8CkgdJkuyboFlkdXKsAmUwSH4kB8UeD0NT7SVp.jpg?r=fb2"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUmLgKmFrl2Tq5jDmIBIdp-L6_fRFsTE7KslWARHa4Yb8f8q32MOBiACOoYAGFn4k8Pc_1P7QlN-F41Btkx4q8bp2gg0yA4kCWxamkIcyRVtyIoln6PDWQVi1_IAZHe4PALj.jpg?r=326"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXnSm1wAJst3SBjVunyonuWIS51RGB1H8P33i4wX45yJf0xiplm-avsI8ETlJdonBe5hdiNkWK-3beanSF7ZVP9VByhnoLwe45FjBYbwIOD0qlvPZqS9rOp8S1W0JHLNEBRt.jpg?r=a3d"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movies row -->
+    <div class="container" id="movies">
+      <section class="content-section">
+        <h2 class="section-title">Movies</h2>
+
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTY_Ugpc0_yfeVVZmakij9ovdRIWVFtWujMIf2nTs0G5GlU27DTpkKm38X973nvzKSlfcoPU8dvJ6EmTEZm34YN2ArgFR-00uQC_UuVvM6pKAVWCxYfEvLtJmuIzarMwkUiu.jpg?r=811"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRZSxIY0SZP4RIUUxzHmDvr_DVLff3OsZW-xtOlduaRGobCm1pGo65fnMcHBzzyEjI3bEipx5k-gDDXezdOeEKtpbMvksUDAeATTc614aJj5qPVmh5J1zkqkcqbEfDB2w8y4.jpg?r=72a"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeWL-MLhttIPX1DGCxVzqJ5CIGe8tMSobte4jieENi2TnotEy3c5CE3_0lTOMg7Etir2sijrJCq8VAVIKy2359cC5tVZDWecTEyf8mbYUa642Pt7GiVuTViMEvv2haji_xej.jpg?r=c6c"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUxf8Oi6b-AfMTchGw1zexfCRExKjd14PmkhCXIovRIpH70VwEz4VkhB58vU0BcoJhZhzfYtNhlYVIsB50UyowN9BDl_0XCIOTsaoXLS3ORN1g8mR0cqo99LDjNB_WZQX8zI.jpg?r=a98"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABV1D3BFin5nSB90HF5dzTy6n9yHXnyU_YH9t3kdwuUwBHbXoqmtpHKqAfYWOlH2B9p9_EcxFVJkeE0Su0qQMAQLUUUtrIJ6TQpI9IwsVtsLOu6qC7o4eTMt-0M_6ZDKwG3EO.jpg?r=23e"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Tv Shows row -->
+    <div class="container" id="tvShows">
+      <section class="content-section">
+        <h2 class="section-title">Tv Shows</h2>
+
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABd1fxSJ4c2LwcfnUUPax4PuK8rMeJXS7DsYOK28J55iHJaXTz7Jkd7kkYYdASnmMXFVt0Gn31fBxZSONusn57f2sH45atnB8sFUna3QSqKeY9yKaw03LeCE7B3ckakS9v8og.jpg?r=68b"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZ2ZZf1vxh3_h3gniSQwCkNlZeyU9vgT46jyKJO9aIFr24Iw9DUA3e9Dw39ZIJTNw9AVRy-ItW73kgiqxmgdlmLzNJAQGE9lxP-zc4JlgRaWckD6X6JviaKJ6cZDQY-ND1oi.jpg?r=519"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABb509jgLJkqO_KEMFctI9a392FQn1JO_79UNnAikFssW1DtGhoN37IAAcaXSkWtA9NwxFk-jf1z4QeiOstBM32EfLlwyYVjD3IM0__l7qgF4ZCXZI7ACthd8PzmZez-MJxzH.jpg?r=4f9"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdOdSuAwEvu_jZKZr4g_GHiP3YpfGSkqDi5yisAEpNVwAv-raxL1fcezQZn4aEu7ixtzlsbRg2GlY2_dkqo9QJyaJgz0Qkr1tH76wgOK9ulsSgZDe_QhgqxBTPeTJgIRGGSI.jpg?r=d40"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeDT1FlJlXqkqQCwJ2KdvTiIOIB_VPByvuDZ3EDuZZwFODY9WcKWgOz61ycu3Rm5SffwmK_QRUJCdZKTMH32UtgB1CQ9Ltae7XLsx2KQsYde9XkeOIR0RHDv6mjD-NlK2oKD.jpg?r=5da"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- My List -->
+    <div class="container" id="myList">
+      <section class="content-section">
+        <h2 class="section-title">My List</h2>
+
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUzu0LQi0J7e5eRow6u7NfEXLGHXpNzTHv4aKEH80ykMMqCqTTrbfoP0jeU9_Giz-AJZrbak5vJs-rYTPXQaoRXeXuW38cEw73ZjS0va4b9fYOcpGBPN5G6lGzegupPxF-5Q.jpg?r=220"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZrMLnw8WE5hCJsepUt8asAgLAOczm8tGn3WGO3OvnZengYhUh7ZT3tncJ9z00fK6zlch9fBhVMKHQI77cCFiCHmxTQEDwpjuUBNiEzyxgCrRXNDQtECKDbrH5pR5s5oagYG.jpg?r=488"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABV7ZN16RyF_NX1jifDL0gUttbuv6g7dMEFopItw0DTCDV8GpTb0-9A30fpIkA7KrqihYndFFyYnTQSGOQrkL2K00kv6NUfoUWq4DlcZOYkCMoVwcuZFn9WkQLCg_HQoQkpM2.jpg?r=1c3"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeYewpCHzXZOlKt1FNcC2jD0hkMiXwXEtsYGeuNrY4668q9nS6QwWyT_C04nyTfV-P4_GaNNxURrTbA344OAOwz11rtPy3QA0JX0QbF7tmzGwzOMrYDsPMuA17VGLFBTlx8x.jpg?r=e79"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="content-card">
+            <img
+              src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdvtXxRebsQqx1qatWj2-GRULWbXbZ3L-fFcySApPsUq6s2E3ZC-91mbX0a0dJx4h_KmWD45uq20wcRSd2IS0Tr-IU3KzW7wn-mc5t-jfI_FJ9gjwYLPShLLm6uYUIoYyU4ZV5fwF5zP5BPQXHS47KdnEZ0cNzO1ltV_IUouVcfsmR9OxdH1TELn-kMiH60.jpg?r=0fa"
+              alt="Movie card"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-contact">Questions? Call 123-456-7890</p>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Centre</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Media Centre</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="https://fast.com/">Speed Test</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#onlyOnNetflix">Only on Netflix</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <select class="language-select">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+        <p class="footer-copy">&copy; 2025 ManjaLays. All rights reserved.</p>
+      </div>
+    </div>
+    <button class="go-up"><a href="#" class="go-up-text">⬆</a></button>
+  </footer>
+</html>
