@@ -19,7 +19,7 @@ This Netflix Clone project is designed to practice front-end web development usi
 ## 🚀 Live Demo
 
 Check out the live version here:  
-🔗 [Netflix Clone Website](https://netflix-clone-flax-three-56.vercel.app/home.html)
+🔗 [Netflix Clone Website](https://netflix-clone-flax-three-56.vercel.app/#)
 
 ---
 
