@@ -19,7 +19,7 @@ This Netflix Clone project is designed to practice front-end web development usi
 ## 🚀 Live Demo
 
 Check out the live version here:  
-🔗 [Netflix Clone Website](https://manjalays.github.io/Netflix-Clone/)
+🔗 [Netflix Clone Website](https://netflix-clone-flax-three-56.vercel.app/home.html)
 
 ---
 
@@ -69,8 +69,9 @@ Check out the live version here:
 
 - **HTML5**
 - **CSS3**
+- **JavaScript**
 - Responsive Web Design (Media Queries)
-- Font Awesome (for icons, if used)
+- Font Awesome (for icons)
 
 ---
 
