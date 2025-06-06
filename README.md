@@ -19,21 +19,52 @@ This Netflix Clone project is designed to practice front-end web development usi
 ## 🖼️ Screenshots
 
 ### 🔹 Desktop View
-<img src="./assets/DV-SS-01.png" width="400px" alt="Desktop Screenshot - Login-1" />
-<img src="./assets/DV-SS-02.png" width="400px" alt="Desktop Screenshot - Login-2" />
-<img src="./assets/DV-SS-03.png" width="400px" alt="Desktop Screenshot - Home-1" />
-<img src="./assets/DV-SS-04.png" width="400px" alt="Desktop Screenshot - Home-2" />
-<img src="./assets/DV-SS-05.png" width="400px" alt="Desktop Screenshot - Home-3" />
-<img src="./assets/DV-SS-06.png" width="400px" alt="Desktop Screenshot - Profile" />
-<img src="./assets/DV-SS-07.png" width="400px" alt="Desktop Screenshot - Pricing" />
+
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/DV-SS-01.png" alt="Desktop Screenshot - Login-1" width="400px"/>
+  <img src="./assets/DV-SS-02.png" alt="Desktop Screenshot - Login-2" width="400px"/>
+</div>
+
+<br/>
+
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/DV-SS-03.png" alt="Desktop Screenshot - Home-1" width="400px"/>
+  <img src="./assets/DV-SS-04.png" alt="Desktop Screenshot - Home-2" width="400px"/>
+</div>
+
+<br/>
+
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/DV-SS-05.png" alt="Desktop Screenshot - Home-3" width="400px"/>
+  <img src="./assets/DV-SS-06.png" alt="Desktop Screenshot - Profile" width="400px"/>
+</div>
+
+<br/>
+
+<img src="./assets/DV-SS-07.png" alt="Desktop Screenshot - Pricing" width="400px"/>
+
+---
 
 ### 🔹 Mobile View
-<img src="./assets/MV-SS-01.png" width="250px" alt="Mobile Screenshot - Login-1" />
-<img src="./assets/MV-SS-02.png" width="250px" alt="Mobile Screenshot - Login-2" />
-<img src="./assets/MV-SS-03.png" width="250px" alt="Mobile Screenshot - Home-1" />
-<img src="./assets/MV-SS-04.png" width="250px" alt="Mobile Screenshot - Home-2" />
-<img src="./assets/MV-SS-05.png" width="250px" alt="Mobile Screenshot - Profile" />
-<img src="./assets/MV-SS-06.png" width="250px" alt="Mobile Screenshot - Pricing" />
+
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/MV-SS-01.png" alt="Mobile Screenshot - Login-1" width="200px"/>
+  <img src="./assets/MV-SS-02.png" alt="Mobile Screenshot - Login-2" width="200px"/>
+</div>
+
+<br/>
+
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/MV-SS-03.png" alt="Mobile Screenshot - Home-1" width="200px"/>
+  <img src="./assets/MV-SS-04.png" alt="Mobile Screenshot - Home-2" width="200px"/>
+</div>
+
+<br/>
+
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/MV-SS-05.png" alt="Mobile Screenshot - Profile" width="200px"/>
+  <img src="./assets/MV-SS-06.png" alt="Mobile Screenshot - Pricing" width="200px"/>
+</div>
 ---------------------
 
 ## 🛠️ Technologies Used
