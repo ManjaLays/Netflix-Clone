@@ -14,7 +14,14 @@ This Netflix Clone project is designed to practice front-end web development usi
 - Carousel-style navigation using arrow buttons
 - Fully responsive design for desktop and mobile devices
 
----------------------
+---
+
+## 🚀 Live Demo
+
+Check out the live version here:  
+🔗 [Netflix Clone Website](https://manjalays.github.io/Netflix-Clone/)
+
+---
 
 ## 🖼️ Screenshots
 
@@ -55,7 +62,8 @@ This Netflix Clone project is designed to practice front-end web development usi
   <img src="./assets/MV-SS-05.png" alt="Mobile Screenshot - Profile" width="200px"/>
   <img src="./assets/MV-SS-06.png" alt="Mobile Screenshot - Pricing" width="200px"/>
 </div>
----------------------
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -64,7 +72,7 @@ This Netflix Clone project is designed to practice front-end web development usi
 - Responsive Web Design (Media Queries)
 - Font Awesome (for icons, if used)
 
----------------------
+---
 
 ## 👨‍💻 Author
 
@@ -72,7 +80,7 @@ This Netflix Clone project is designed to practice front-end web development usi
 🌐 [GitHub](https://github.com/manjalays)  
 📫 mail.saanthanuprasad@gmail.com
 
----------------------
+---
 
 ## 📢 Credits
 
