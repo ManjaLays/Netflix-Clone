@@ -19,22 +19,21 @@ This Netflix Clone project is designed to practice front-end web development usi
 ## 🖼️ Screenshots
 
 ### 🔹 Desktop View
-![Desktop Screenshot - Login-1](./assets/DV-SS-01.png)
-![Desktop Screenshot - Login-2](./assets/DV-SS-02.png)
-![Desktop Screenshot - Home-1](./assets/DV-SS-03.png)
-![Desktop Screenshot - Home-2](./assets/DV-SS-04.png)
-![Desktop Screenshot - Home-3](./assets/DV-SS-05.png)
-![Desktop Screenshot - Profile](./assets/DV-SS-06.png)
-![Desktop Screenshot - Pricing](./assets/DV-SS-07.png)
+<img src="./assets/DV-SS-01.png" width="400px" alt="Desktop Screenshot - Login-1" />
+<img src="./assets/DV-SS-02.png" width="400px" alt="Desktop Screenshot - Login-2" />
+<img src="./assets/DV-SS-03.png" width="400px" alt="Desktop Screenshot - Home-1" />
+<img src="./assets/DV-SS-04.png" width="400px" alt="Desktop Screenshot - Home-2" />
+<img src="./assets/DV-SS-05.png" width="400px" alt="Desktop Screenshot - Home-3" />
+<img src="./assets/DV-SS-06.png" width="400px" alt="Desktop Screenshot - Profile" />
+<img src="./assets/DV-SS-07.png" width="400px" alt="Desktop Screenshot - Pricing" />
 
 ### 🔹 Mobile View
-![Mobile Screenshot - Login-1](./assets/MV-SS-01.png)
-![Mobile Screenshot - Login-2](./assets/MV-SS-02.png)
-![Mobile Screenshot - Home-1](./assets/MV-SS-03.png)
-![Mobile Screenshot - Homw-2](./assets/MV-SS-04.png)
-![Mobile Screenshot - Profile](./assets/MV-SS-05.png)
-![Mobile Screenshot - Pricing](./assets/MV-SS-06.png)
-
+<img src="./assets/MV-SS-01.png" width="250px" alt="Mobile Screenshot - Login-1" />
+<img src="./assets/MV-SS-02.png" width="250px" alt="Mobile Screenshot - Login-2" />
+<img src="./assets/MV-SS-03.png" width="250px" alt="Mobile Screenshot - Home-1" />
+<img src="./assets/MV-SS-04.png" width="250px" alt="Mobile Screenshot - Home-2" />
+<img src="./assets/MV-SS-05.png" width="250px" alt="Mobile Screenshot - Profile" />
+<img src="./assets/MV-SS-06.png" width="250px" alt="Mobile Screenshot - Pricing" />
 ---------------------
 
 ## 🛠️ Technologies Used
